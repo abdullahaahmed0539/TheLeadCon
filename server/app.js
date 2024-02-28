@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const emailRouter = require("./routes/emails");
 
-
 const app = express();
 
 app.use(express.json());

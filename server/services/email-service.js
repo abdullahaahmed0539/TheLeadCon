@@ -26,7 +26,6 @@ exports.sendEmail = async (req, res) => {
   });
   request
     .then(result => {
-      console.log(result.body);
       res.status(201).json({});
     })
     .catch(err => {
